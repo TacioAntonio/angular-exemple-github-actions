@@ -1,0 +1,7 @@
+<nav class="navbar">
+  <ul class="list">
+    <li class="item" *ngFor="let page of getPages">
+      <a class="link" [routerLink]="[page.path]">{{ page.name }}</a>
+    </li>
+  </ul>
+</nav>

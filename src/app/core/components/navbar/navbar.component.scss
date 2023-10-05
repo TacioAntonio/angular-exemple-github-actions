@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  > .list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.1rem;
+
+      .link {
+        color: rgb(0, 102, 255);
+        opacity: .8;
+
+        &:hover,
+        &:focus {
+          opacity: 1;
+        }
+      }
+    }
+}

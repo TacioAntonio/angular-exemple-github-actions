@@ -1,0 +1,8 @@
+<div class="container">
+  <h1 class="title">User list</h1>
+
+  <ul class="list" *ngIf="getUsers.length">
+    <li class="item" *ngFor="let user of getUsers">{{ user }}</li>
+  </ul>
+</div>
+

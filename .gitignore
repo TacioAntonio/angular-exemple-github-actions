@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+/specs
+*-exemple.spec.ts
+*-exemple1.spec.ts
+*-exemple2.ts
